@@ -60,3 +60,30 @@ footer{
     text-align: center;
     color: white;
 }
+
+@media only screen and (max-width: 600px) {
+    input{
+        height: 20px;
+        max-width: 30px;
+    }
+
+    .allapot,.kinyert{
+        border: 1px solid white;
+        height: 20px;
+        text-align: center;
+    }
+
+    .elem{
+        border: 1px solid white;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .jatekter{
+        display: grid;
+        grid-template-columns: repeat(3, 70px);
+        grid-template-rows: repeat(3, 70px);
+    }
+    
+
+  }
