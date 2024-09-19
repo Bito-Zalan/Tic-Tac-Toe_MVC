@@ -1,0 +1,62 @@
+h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+p{
+    color: white;
+    padding: 3px;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+article{
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    width: 300px;
+    margin: auto;
+}
+.nevek{
+    padding: 10px;
+    border: 1px solid white;
+}
+.nevekform{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+input{
+    height: 20px;
+    max-width: 100px;
+}
+label{
+    font-size: 15px;
+}
+.jatekos{
+    color: white;
+}
+.allapot,.kinyert{
+    border: 1px solid white;
+    height: 30px;
+    text-align: center;
+}
+
+.elem{
+    border: 1px solid white;
+    text-align: center;
+    font-size: 50px;
+}
+.elem:hover{
+    background-color: rgba(128, 128, 128, 0.178);
+}
+.jatekter{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+}
+
+footer{
+    text-align: center;
+    color: white;
+}
